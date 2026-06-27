@@ -30,11 +30,7 @@ The relational database utilizes four primary core tables designed with explicit
 
 ### Entity Relationship Diagram (ERD)
 
-[Categories] ◄─── (Self-References via parent_category_id)
-▲
-│ (category_id)
-│
-[Order_Items] ────(order_id)────► [Orders] ────(customer_id)────► [Customers]
+![ER Diagram](Screenshots/ER%20diagram.jpg)
 
 ---
 
